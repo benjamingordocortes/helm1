@@ -1,0 +1,7 @@
+https://benjamingordocortes.github.io/helm1/
+
+FOR DOWNLOAD PACKAGE
+helm repo add miapp https://benjamingordocortes.github.io/helm1/
+helm repo list
+helm install miapp miapp/miapp --values https://benjamingordocortes.github.io/helm1/miapp/prod.yaml
+helm install miapp miapp/miapp --values https://benjamingordocortes.github.io/helm1/miapp/dev.yaml
